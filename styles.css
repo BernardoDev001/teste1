@@ -9,7 +9,7 @@ html, body {
 
 /* Fundo com imagem cobrindo a tela */
 body {
-  background: url('./img/background.JPG') no-repeat center center fixed;
+  background: url('./img/giphy1.gif') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-basis: 20%;
   flex-direction: column;
+ 
 }
 
 /* Ajuste para a logo */
@@ -38,6 +39,11 @@ body {
   max-width: 60%;
   height: auto;
   margin-bottom: 20px;
+  
+}
+.logo img:hover{
+  width: 150px;
+  height: 150px;
 }
 
 /* Menu: lista sem marcadores e com espaçamentos */
@@ -85,6 +91,8 @@ body {
 
 .menu ul li a:hover {
   opacity: 0.8;
+  width: 160px;
+  height: 50px;
 }
 
 /* Área de conteúdo: boxes empilhados verticalmente */
