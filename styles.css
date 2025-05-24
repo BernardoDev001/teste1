@@ -39,6 +39,11 @@ body {
   max-width: 60%;
   height: auto;
   margin-bottom: 20px;
+  
+}
+.logo img:hover{
+  width: 150px;
+  height: 150px;
 }
 
 /* Menu: lista sem marcadores e com espaçamentos */
